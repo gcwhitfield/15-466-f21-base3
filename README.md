@@ -6,7 +6,7 @@ Design: Synchronize the phases of two sounds to unlock the path to escape!
 
 Screen Shot:
 
-![Screen Shot](screenshot)
+![Screen Shot](screenshot.png)
 
 NOTE: **THERE IS NO GAME. I am using my 1 'small game freebee' on this assignment.**
 
