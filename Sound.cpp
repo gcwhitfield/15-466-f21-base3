@@ -52,7 +52,6 @@ Sound::Sample::Sample(std::vector< float > const &data_) : data(data_) {
 }
 
 
-
 void Sound::init() {
 	if (SDL_InitSubSystem(SDL_INIT_AUDIO) != 0) {
 		std::cerr << "Failed to initialize SDL audio subsytem:\n" << SDL_GetError() << std::endl;
@@ -425,13 +424,13 @@ void mix_audio(void *, Uint8 *buffer_, int len) {
 		}
 	}
 
-	/*//DEBUG: report output power:
+	//DEBUG: report output power:
 	float max_power = 0.0f;
 	for (uint32_t s = 0; s < MIX_SAMPLES; ++s) {
 		max_power = std::max(max_power, (buffer[s].l * buffer[s].l + buffer[s].r * buffer[s].r));
 	}
 	std::cout << "Max Power: " << std::sqrt(max_power) << "; playing samples: " << playing_samples.size() << std::endl; //DEBUG
-	*/
+	
 
 }
 

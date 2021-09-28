@@ -1,18 +1,22 @@
-# (TODO: your game's title)
+# Phase Dance
 
-Author: (TODO: your name)
+Author: George Whitfield
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: Synchronize the phases of two sounds to unlock the path to escape!
 
 Screen Shot:
 
 ![Screen Shot](screenshot.png)
 
+NOTE: **THERE IS NO GAME. I am using my 1 'small game freebee' on this assignment.**
+
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+Controls: WASD
 
-Sources: (TODO: list a source URL for any assets you did not create yourself. Make sure you have a license for the asset.)
+The player must listen to the sounds while moving throughout the scene. The 
+sounds will change BPM as you move throughout the scene. Once the sounds are 
+playing at the same BPM, the next level will unlock.
 
 This game was built with [NEST](NEST.md).
 

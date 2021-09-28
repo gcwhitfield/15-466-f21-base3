@@ -123,6 +123,9 @@ std::shared_ptr< PlayingSample > loop_3D(
 	float half_volume_radius = std::numeric_limits< float >::infinity()
 );
 
+// returns a playing sample at frequency 'freq'
+PlayingSample SineWave(int freq);
+
 //Listener controls the panning of "3D" samples (ones played using the "position" version of the play functions):
 struct Listener {
 	void set_position_right(glm::vec3 const &new_position, glm::vec3 const &new_right, float ramp = 1.0f / 60.0f);
